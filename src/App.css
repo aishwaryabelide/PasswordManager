@@ -1,0 +1,235 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-container {
+  background-color: #9ba9eb;
+  font-family: 'Roboto';
+  padding-left: 40px;
+  margin: 20px;
+}
+
+.card-container {
+  background-color: #5763a5;
+  border-radius: 10px;
+  width: 90%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.password-card-container {
+  background-color: #5763a5;
+  border-radius: 10px;
+  width: 90%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.card {
+  background-color: #454f84;
+  border-radius: 10px;
+  width: 90%;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.title {
+  color: #f8fafc;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.logo {
+  height: 50px;
+  padding-left: 15px;
+  margin: 10px;
+}
+
+.small-password-manager {
+  height: 60%;
+  width: 60%;
+  padding: 10px;
+}
+
+.input-img {
+  height: 30px;
+  width: 30px;
+  border: 2px solid #b6c3ca;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.input-container {
+  background-color: #f8fafc;
+  max-width: 95%;
+  display: flex;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.input-msg {
+  border: 1px solid #b6c3ca;
+  width: 100%;
+  padding-left: 10px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  outline: none;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.count-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.password-title {
+  color: #f8fafc;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.number {
+  color: #f8fafc;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+  border: 1px solid #b6c3ca;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+}
+
+.search {
+  background-color: #f8fafc;
+  max-width: 95%;
+  display: flex;
+}
+
+.search-img {
+  height: 30px;
+  width: 30px;
+}
+
+.search-msg {
+  border: 1px solid #b6c3ca;
+  width: 100%;
+  padding-left: 10px;
+  outline: none;
+}
+
+.line {
+  border: 1px solid #9ba9eb;
+  width: 100%;
+}
+
+.button {
+  width: 80px;
+  padding: 5px;
+  background-color: #0b69ff;
+  border-width: 0px;
+  border-radius: 5px;
+  color: #f8fafc;
+  outline: none;
+  cursor: pointer;
+}
+
+.button-container {
+  text-align: right;
+  width: 95%;
+}
+
+.show-password {
+  text-align: right;
+  width: 90%;
+  color: #f8fafc;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.label {
+  margin-left: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.unordered-list {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-container {
+    padding-left: 60px;
+  }
+
+  .card-container {
+    flex-direction: row;
+    margin-left: 30px;
+  }
+
+  .password-card-container {
+    margin-left: 30px;
+  }
+
+  .flex-row {
+    justify-content: space-between;
+  }
+
+  .small-password-manager {
+    order: 1;
+    height: 30%;
+    width: 30%;
+  }
+
+  .card {
+    margin: 10px;
+    padding: 30px;
+    width: 50%;
+  }
+
+  .flex-row {
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .unordered-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    min-width: 10%;
+  }
+}
